@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Galeria Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="login-page">
+    <header>
+        <nav>
+            <h1>Galeria Pessoal</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Artistas</a></li>
+                <li><a href="preco.html">Preços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>   
+            <a href="login.html" class="log-icon-link">
+            <i class="fa-solid fa-user"></i>
+        </a>
+        </nav>
+    </header>
+
+    <main class="login-container">
+        <div>
+            <h2 class="novoUsuario"><i class="fa-solid fa-user"></i> Login</h2>
+            <form action="#" method="POST">
+                <div class="input-group">
+                    <label for="username">Usuário ou E-mail</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="login-button">Entrar na Galeria</button>
+                <p class="signup-link">Não tem uma conta? <a href="registro.html">Crie sua conta</a></p>
+            </form>
+        </div>
+    </main>
+<footer>
+    <h1>Galeria Pessoal</h1>
+    <p>&copy; 2024 Galeria Pessoal. Todos os direitos reservados.</p>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+</footer>
+</body>
+</html>
