@@ -1,2 +1,0 @@
-# GaleriaPessoalWeb
-Trabalho escola tecnica
